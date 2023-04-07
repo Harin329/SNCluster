@@ -1,7 +1,7 @@
 import pandas as pd
 
-geneTypes = ['nociceptionGenes', 'mechanoreception1Genes', 'mechanoreception2Genes', 'proprioceptionGenes']
-dataTags = ['hier', 'kmeans']
+geneTypes = ['nociceptionGenes', 'mechanoreceptionGenes', 'mechanoreception1Genes', 'mechanoreception2Genes', 'proprioceptionGenes']
+dataTags = ['hier', 'kmeans', 'leiden']
 
 for geneType in geneTypes:
     geneUnion = []
